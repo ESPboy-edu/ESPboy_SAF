@@ -1,5 +1,8 @@
 # Small Abstract Fish (SAF)
 
+[original SAF files HERE from drummyfish](https://codeberg.org/drummyfish/SAF)
+
+
 ![](logo.png) *tiny public domain suckless portable console for small games*
 
 ![](media/utd.gif) ![](media/demo3d.gif) ![](media/minigames.gif) ![](media/anarch.gif) ![](media/test.gif) ![](media/chess.png)
