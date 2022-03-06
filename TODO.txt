@@ -1,0 +1,45 @@
+- Add signal (kill) handling?
+- Add "contain source code" feature that would include the game's own source
+  code in the binary and possibly print it in console on demand?
+- Create a small web "IDE" using a C interpreter (e.g. picoc) compiled to JS
+  via emscripten.
+- Add FORCE_GRAYSCALE?
+- Create a script that merges multiple programs into one program with menu
+  allowing to run any of these programs.
+- Possibly implement the interface in another language(s), it could then be
+  possible to transpile from other languages to C (dynamic typing is a problem
+  though). Check out:
+  - ts2c: JS -> C
+  - wax: nice tiny lang -> basically anything including C
+  - cython: Python -> C
+- Test programs:
+  - something aka oblivion face creation :)
+  - pokémon-like walk simulator
+- Refactor all frontends.
+- chess colors: 9191aa, b6b6aa, 6ddaaa, da9155
+
+DONE:
+- multiple minigames in one (snake, mines, ...)
+- Port micro TD to this
+- Create a small 1bit logo and add it to the library.
+- Port to plain X11?
+- Add demo record feature to some frontends.
+- Add pause button to frontends.
+- Add joyhat support to pokitto
+- Add time slowdown option for PC.
+- SDL_PLAIN frontend
+- Port anarch to this.
+- Add fast version for common image drawing modes (i.e. no transform no scale
+  should be faster than the general version).
+- Add screenshot taking key to SDL.
+- Add feature that measures the execution time of one loop step, for performance
+  measurement.
+- Create a platform testing program.
+- Check/improve the random function (try to apply my custom randomness checking
+  algorithm).
+- Remove SAF_randomize and leave that for an extension? It makes programs
+  non-deterministic. Instead add SAF_seed.
+- Shift responsibility for save/load optimization from fontends to SAF, will be
+  probably better
+- Make the demo replay also usable as a save/load feature (i.e. loading will
+  replay all inputs to get you into the same position).
